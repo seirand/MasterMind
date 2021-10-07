@@ -39,15 +39,14 @@ string MasterMind::get_acceptable_guess()
   }
 }
 
-
 /* acceptableGuess is a function which checks the guess is an
    acceptable 4 digit answer without blanks */
 
 int MasterMind::acceptableGuess(string guess)
 {
-  string s = "BGOPRY";
+
   if (guess.length()!= 4 || guess == " ") return 0;
-  //else if ( s.find(guess[0]) && s.find(guess[1]) && s.find(guess[2]) && s.find(guess[3]))return 1;
+
   else return 1;
 }
 
