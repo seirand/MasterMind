@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1633605401 source:s:\projeccts\mastermind\main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<stdlib.h>
+
